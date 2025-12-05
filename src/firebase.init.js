@@ -5,14 +5,14 @@ import { getAuth } from "firebase/auth";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAZESvcpoimed_QU8TsYZDIlrhs6lhLZvA",
-  authDomain: "auth-next-step.firebaseapp.com",
-  projectId: "auth-next-step",
-  storageBucket: "auth-next-step.firebasestorage.app",
-  messagingSenderId: "1062298878656",
-  appId: "1:1062298878656:web:82ebb2c54a32bd90026325",
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAZESvcpoimed_QU8TsYZDIlrhs6lhLZvA",
+//   authDomain: "auth-next-step.firebaseapp.com",
+//   projectId: "auth-next-step",
+//   storageBucket: "auth-next-step.firebasestorage.app",
+//   messagingSenderId: "1062298878656",
+//   appId: "1:1062298878656:web:82ebb2c54a32bd90026325",
+// };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
